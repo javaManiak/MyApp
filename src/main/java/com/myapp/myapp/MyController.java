@@ -10,4 +10,9 @@ public class MyController {
     public String sayHello() {
         return "API health is SOO......Soooo... good";
     }
+
+    @RequestMapping("/api/user")
+    public String getUser() {
+        return "Hello Friend!";
+    }
 }
